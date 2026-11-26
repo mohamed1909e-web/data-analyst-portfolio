@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>محمد إيهاب | تحليل البيانات</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="noise"></div>
+<header class="topbar"><a class="brand" href="#" data-view="home"><span class="brandmark">ME</span><span>Mohamed Ehab <small>DATA ANALYST</small></span></a><button class="menu-btn" id="menuBtn">☰</button><nav id="nav"><a data-view="home">الرئيسية</a><a data-view="services">الخدمات</a><a data-view="projects">المشاريع</a><a data-view="about">نبذة عني</a><a data-view="training">التدريبات</a><a data-view="certificates">الشهادات</a><a data-view="orders">طلباتي</a></nav><button class="contact-btn" data-view="services">ابدأ مشروعك ↗</button></header>
+<main>
+<section id="welcome" class="welcome">
+<div class="welcome-art"><div class="orb orb1"></div><div class="orb orb2"></div><div class="welcome-card"><div class="mini-label">DATA • INSIGHTS • DECISIONS</div><div class="chart-bars"><i style="height:40%"></i><i style="height:66%"></i><i style="height:52%"></i><i style="height:85%"></i><i style="height:70%"></i><i style="height:100%"></i></div><div class="welcome-card-footer"><span>Performance</span><span class="up">↗ +24.8%</span></div></div></div>
+<div class="welcome-copy"><span class="eyebrow">مرحبًا بك في مساحة تحليل البيانات</span><h1>حوّل بياناتك<br><span>إلى قرارات أذكى.</span></h1><p>لو عندك بيانات ومش عارف تبدأ منين، هنا بننظمها ونحللها ونحوّلها لتقارير ولوحات تحكم تساعدك تشوف الصورة كاملة.</p><div class="trust-row"><span>Excel</span><span>Power BI</span><span>SQL</span><span>Data storytelling</span></div></div>
+</section>
+<section id="register" class="register-panel"><div><span class="eyebrow">خطوتك الأولى</span><h2>خلّينا نعرفك</h2><p>سجّل بياناتك للانتقال إلى مساحة الخدمات والمشاريع.</p></div><form id="registerForm" class="register-form"><label>الاسم<input name="name" required placeholder="اسمك بالكامل"></label><label>البريد الإلكتروني<input name="email" type="email" required placeholder="name@example.com"></label><label>رقم واتساب<input name="phone" required placeholder="01xxxxxxxxx"></label><button class="primary" type="submit">دخول إلى الموقع <span>↗</span></button><small>هذه نسخة تجريبية؛ البيانات محفوظة محليًا على جهازك.</small></form></section>
+<div id="app" class="app-view hidden">
+<div class="page-heading"><div><span class="eyebrow">مساحة العميل</span><h2 id="pageTitle">اختار القسم اللي يهمك</h2><p id="pageSubtitle">كل جزء من خدمات تحليل البيانات في مكانه.</p></div><button id="logoutBtn" class="soft">تغيير بيانات الزائر</button></div>
+<section id="homeView" class="section-grid">
+<button class="section-card service-card" data-view="services"><span class="card-icon">✦</span><h3>الخدمات</h3><p>خدمات تحليل البيانات مع الأسعار ونطاق العمل.</p><span class="card-link">عرض الخدمات ↗</span></button>
+<button class="section-card" data-view="projects"><span class="card-icon">▦</span><h3>المشاريع</h3><p>نماذج مشاريع ومشكلة كل مشروع وتحليله.</p><span class="card-link">استكشف المشاريع ↗</span></button>
+<button class="section-card" data-view="about"><span class="card-icon">◉</span><h3>نبذة عني</h3><p>تعرف على خلفيتي وطريقتي وأدواتي.</p><span class="card-link">اعرف المزيد ↗</span></button>
+<button class="section-card" data-view="training"><span class="card-icon">⌁</span><h3>التدريبات</h3><p>التدريبات وورش العمل التي شاركت فيها.</p><span class="card-link">عرض التدريبات ↗</span></button>
+<button class="section-card" data-view="certificates"><span class="card-icon">♧</span><h3>الشهادات</h3><p>الشهادات المهنية والدورات الأونلاين والأوفلاين.</p><span class="card-link">عرض الشهادات ↗</span></button>
+<button class="section-card orders-card" data-view="orders"><span class="card-icon">◷</span><h3>طلباتي</h3><p>تابع طلباتك ومعلومات التسليم.</p><span class="card-link">متابعة الطلبات ↗</span></button>
+</section>
+<div id="contentView"></div>
+</div>
+</main>
+<footer><span>© <span id="year"></span> Mohamed Ehab</span><span>Data Analysis Portfolio</span></footer>
+<script src="script.js"></script>
+</body></html>
